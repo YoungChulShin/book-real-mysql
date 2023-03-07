@@ -13,6 +13,7 @@ RealMySQL 책 공부 내용 저장
    docker run -it -d -p 3306:3306 --name mysql-employees -e MYSQL_ROOT_PASSWORD=secret -v {my-volume-folder}:/var/lib/mysql amd64/mysql:5.7.40
    ```
 2. DB 파일을 Docker 볼륨 경로로 복사
+   - dump를 포함한 전체 파일을 복사해야한다
 3. Docker 접속 및 파일을 복사한 위치로 이동
    ```
    docker exec -it {container name} bash
