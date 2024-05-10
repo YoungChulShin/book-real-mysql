@@ -4,8 +4,13 @@ RealMySQL 책 공부 내용 저장
 # 실습 환경 구성
 ### Test DB
 `Employees` Test DB를 사용합니다. 
+
+5.x 버전
 - https://dev.mysql.com/doc/employee/en/employees-installation.html
 - https://github.com/datacharmer/test_db
+
+8.0 버전
+- https://github.com/wikibook/realmysql80
 
 ### Test DB 셋업
 1. Docker 실행
